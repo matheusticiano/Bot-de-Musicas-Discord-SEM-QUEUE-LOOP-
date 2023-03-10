@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 @bot.command()
 async def join(ctx):
     if not ctx.message.author.voice:
-        await ctx.send("Entra na sala primeiro filho da puta")
+        await ctx.send("Entra na sala primeiro ")
         return
     else:
         channel = ctx.message.author.voice.channel
